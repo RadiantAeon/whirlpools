@@ -18,7 +18,7 @@ default = []
 anchor-lang = "0.20.1"
 anchor-spl = "0.20.1"
 spl-token = { version = "3.1.1", features = ["no-entrypoint"] }
-solana-program = "1.8.12"
+solana-program = "1.9.24"
 thiserror = "1.0"
 uint = { version = "0.9.1", default-features = false }
 borsh = "0.9.1"
