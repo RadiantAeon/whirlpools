@@ -15,8 +15,8 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.20.1"
-anchor-spl = "0.20.1"
+anchor-lang = { git = "https://github.com/project-serum/anchor", rev = "a81ff88d76956533a4ca5ae74d5dec37d7d76b51" }
+anchor-spl = { git = "https://github.com/project-serum/anchor", rev = "a81ff88d76956533a4ca5ae74d5dec37d7d76b51" }
 spl-token = { version = "3.1.1", features = ["no-entrypoint"] }
 solana-program = "1.8.12"
 thiserror = "1.0"

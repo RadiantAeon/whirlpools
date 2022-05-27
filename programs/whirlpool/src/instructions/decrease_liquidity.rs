@@ -56,9 +56,7 @@ pub fn handler(
         liquidity_delta,
     )?;
 
-    if delta_a < token_min_a {
-        return Err(ErrorCode::TokenMinSubceeded.into());
-    } else if delta_b < token_min_b {
+    if delta_a < token_min_a || delta_b < token_min_b{
         return Err(ErrorCode::TokenMinSubceeded.into());
     }
 
